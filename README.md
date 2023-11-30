@@ -1,2 +1,8 @@
 # 2620-fall23-storybook-library
 This is the Storybook library containing all of the student Svelte components created for the Fall 2023, 2620 Frameworks class.
+
+******** READ THIS FIRST ********
+* BEFORE YOU ADD YOUR FILES TO THIS REPO - MAKE A NEW BRANCH!!!!
+* ONLY COMMIT YOUR TWO STORYBOOK COMPONENT FILES (.SVELTE AND .STORY.JS) BY UNCHECKING ANY OTHER FILES IN YOUR COMMIT
+* ONLY PASTE THOSE TWO FILES IN THE "STORIES" DIRECTORY
+* DON'T COMMIT ANY .DS_STORE FILES
