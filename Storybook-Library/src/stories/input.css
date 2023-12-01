@@ -5,10 +5,20 @@ input {
     margin-top: 4px;
     padding: 4px;
     width: 200px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid #303437;
 }
 
-.input
-
-.input--blue {
-    border: 2px solid #6B4EFF;
+.blueBorder {
+    border: 1px solid #6B4EFF;
 }
+
+.redBorder {
+    border: 1px solid #FF5247;
+}
+
+.grayBorder {
+    background-color: #202325;
+}
+

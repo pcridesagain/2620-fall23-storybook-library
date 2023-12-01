@@ -6,7 +6,7 @@ export default {
     tags: ['autodocs'],
     argTypes: {
       border: {
-        options: ["blue", "red", "gray"],
+        control: { type: 'select', optiona: ['blueBorder', 'redBorder', 'grayBorder']}
       }
     }
   };
@@ -18,10 +18,24 @@ export const Primary = {
   },
 };
 
-export const BlueBorder = {
+export const Blue = {
   args: {
-    border: 'blue',
+    border: 'blueBorder'
   }
-}
+};
+
+export const Red = {
+  args: {
+    border: 'redBorder'
+  }
+};
+
+export const Gray = {
+  args: {
+    border: 'grayBorder'
+  }
+};
+
+
 
 
