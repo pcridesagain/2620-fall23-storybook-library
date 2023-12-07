@@ -1,0 +1,71 @@
+ /* <div class="bg-gray-{selected === item ? '600' : '800'} p-2 m-1 rounded-lg w-1/2 text-center h-10 hover:bg-gray-600 hover:cursor-pointer" on:click={() => setActive(item)}>{item}</div> */
+
+
+.bg-black{
+    background-color: black;
+}
+
+.m-4{
+    margin: 1rem;
+}
+
+.p-2 {
+    padding: .5rem;
+}
+
+.w-1 {
+    width: 33.3333%;
+}
+
+.rounded-lg{
+    border-radius: 0.5rem;
+}
+
+.flex {
+    display: flex;
+}
+.bg-gray-800 {
+    background-color: gray;
+}
+
+.text-white{
+    color: white;
+}
+
+.h-12{
+    height: 2rem;
+} 
+
+.items-center{
+ align-items: center;
+}
+
+/* bg-gray-{selected === item ? '600' : '800'}  */
+.m-1{
+    margin: .25rem;
+}
+
+.w-2{
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+}
+.h-10{
+    height: 1.5rem;
+}
+
+bg-gray-600:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+.segment:hover{
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+/* .main-bar{
+    background-color: gray;
+} */
+/* hover:bg-gray-600 
+hover:cursor-pointer */
