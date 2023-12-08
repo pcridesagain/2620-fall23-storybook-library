@@ -1,5 +1,5 @@
 <script>
-  import './button.css';
+  import '../app.postcss';
 
   /**
    * Is this the principal call to action on the page?
@@ -28,7 +28,7 @@
 
 <button
   type="button"
-  class={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+  class={'bg-black'}
   {style}
   on:click
 >

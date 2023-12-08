@@ -1,5 +1,5 @@
 <script>
-  import './page.css';
+  import '../app.css';
   import Header from './Header.svelte';
 
   let user = null;
